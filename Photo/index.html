@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="fukung">
+        <div style="background-image: url('hen\ \(1\).jpg');"></div>
+        <div style="background-image: url('hen\ \(2\).jpg');"></div>
+        <div style="background-image: url('hen\ \(3\).jpg');"></div>
+        <div style="background-image: url('hen\ \(4\).jpg');"></div>
+        <div style="background-image: url('hen\ \(5\).jpg');"></div>
+        <div style="background-image: url('hen\ \(6\).jpg');"></div>
+    </div>
+    <style>
+        .fukung {
+            display: flex;
+            height: 70rem;
+            gap: 1rem;
+        }
+        .fukung > div {
+            flex: 1;
+            border-radius: 1rem;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: auto 100%;
+            transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+        }
+        .fukung > div:hover{
+            flex: 5;
+        }
+    </style>
+</body>
+</html>
