@@ -1,0 +1,15 @@
+.zoom {
+    height: 200px;
+    overflow: hidden;
+    border-radius: 16px;
+}
+
+.zoom img {
+    object-fit: cover;
+    transition: transform 0.8s;
+    height: 100%;
+}
+
+.zoom:hover img{
+    transform: scale(1.5);
+}
